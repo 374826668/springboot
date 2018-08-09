@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
-        return "Hello Spring Boot1111445444!";
+        return "Hello Spring Boot!";
     }
 
 }
