@@ -1,4 +1,4 @@
-package com.springboot.springboot;
+package com.springboot.springboot.restController;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
