@@ -14,9 +14,15 @@ public class SpringbootApplicationTests {
     @Value("${server.port}")
     private String port;
 
+    @Value("${kk.descript}")
+    private String descript;
+
     @Test
-    public void contextLoads() {
+    public void contextLoads()
+    {
         System.out.println(port);
+        System.out.println("##################");
+        System.out.println(descript);
     }
 
 }
