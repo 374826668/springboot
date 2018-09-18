@@ -1,0 +1,35 @@
+#端口配置
+server:
+  port: 8888
+  servlet:
+    context-path: /app
+#时间格式化
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+  profiles:
+    active: pro
+#属性占位符
+kk:
+  name: app
+  descript: ${kk.name} is a sign
+#多环境配置
+
+---
+spring:
+  profiles: test
+server:
+  port: 8888
+
+---
+spring:
+  profiles: dev
+server:
+  port: 1111
+
+---
+spring:
+  profiles: pro
+server:
+  port: 2222
