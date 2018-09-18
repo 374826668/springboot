@@ -65,5 +65,23 @@
         </plugins>
     </build>
 
+   <!-- <resources>
+        <resource>
+            <directory>${basedir}/src/main/resources</directory>
+            <filtering>true</filtering>
+            <excludes>
+                <exclude>/META-INF/**</exclude>
+                <exclude>/public/**</exclude>
+                <exclude>/static/**</exclude>
+                <exclude>/templates/**</exclude>
+            </excludes>
+        </resource>
+        <resource>
+            <targetPath>/META-INF</targetPath>
+            <filtering>false</filtering>
+            <directory>${basedir}/META-INF</directory>
+        </resource>
+    </resources>-->
+
 
 </project>
