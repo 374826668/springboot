@@ -9,9 +9,10 @@ package com.springboot.springboot.bean;/**
 import java.util.Date;
 
 /**
- *描述：用户
+ * 描述：用户
+ *
  * @author Li.peng
- *@create 2018-09-14 14:55
+ * @create 2018-09-14 14:55
  */
 public class User {
     private int id;

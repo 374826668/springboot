@@ -15,10 +15,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = SpringbootApplication.class)
-public class HelloControllerTest{
+public class HelloControllerTest {
 
     @Test
-public  void syaHello(){
-    System.out.println("aaaaa");
-}
+    public void syaHello() {
+        System.out.println("aaaaa");
+    }
 }
